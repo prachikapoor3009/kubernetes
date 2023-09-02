@@ -19,4 +19,19 @@ So, one container impacts the other container. The applicaton running inside oth
 
 **Solution**
 -------------
-Kubernetes solves all the above problems.
+Kubernetes
+
+**How Kubernetes solves all problems?**
+----------------------------------------
+- By default, Kubernetes is a **cluster**.
+- Cluster is a collection/group of **nodes**.
+- Kubernetes is installed in a **master slave** architecture.
+- Multiple node architecture . example - 1 master node , n slave nodes.
+- If one node is faulty(container inside it), it shouldn't impact the other container. That container is put by kubernetes inside 
+  other node.
+- For auto helaing, kubernetes has **Replica sets**. No need to deploy a new container on increased load, in yaml file of replica 
+  set, set replicas to be increased to say 10.
+- **Horizontal pod autoscaler** : Increased load, increase number of containers. Threshold of container reached, automatically 
+  spin up a container.
+
+
