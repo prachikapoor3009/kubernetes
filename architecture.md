@@ -1,7 +1,7 @@
 **Architecture oF Kubernetes**
 ------------------------------
 
-Kubernetes has a control plane and a **data plane**.
+Kubernetes has a **control plane** and a **data plane**.
 
 **Components of control plane**
 -------------------------------
