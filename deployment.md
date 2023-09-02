@@ -1,0 +1,16 @@
+**Why deployment?**
+- It is unlikely that pod is deployed directly in Kubernetes.
+- As pod is more likely like a docker container.
+- Deployment ensures auto scaling and auto healing which pod/container doesn't.
+- Deployment will ensure no downtime of application running inside the application.
+- Deployment uses some strategy called **rolling update strategy/recreate strategy**.
+- Ensures number of **replica sets** mentioned in deployment file matches with number of pods always available on kubernetes cluster.
+- Suppose replica sets mentioned in deployment file is mentioned to be 2, meaning 2 copies of application should always be  
+  running on the kubernetes cluster, so replica set which is a kubernetes controller maintains the state of pods.
+
+**Image**
+![image](https://github.com/prachikapoor3009/kubernetes/assets/66333390/7e355201-7eac-427c-8b59-7fec62e20a7a)
+
+
+
+
