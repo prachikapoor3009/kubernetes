@@ -9,7 +9,7 @@
   running on the kubernetes cluster, so replica set which is a kubernetes controller maintains the state of pods.
 
 **Image**
-![image](https://github.com/prachikapoor3009/kubernetes/assets/66333390/7e355201-7eac-427c-8b59-7fec62e20a7a)
+![image](https://github.com/prachikapoor3009/kubernetes/assets/66333390/c9abc4d8-5a32-4f7b-a103-dd62ee2e3262)
 
 
 
