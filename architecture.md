@@ -1,16 +1,16 @@
 - Kubernetes has a control plane and a **data plane**.
 
 **Components of control plane**
-  a) API Server
-  b) etcd
-  c) Scheduler
-  d) Controller Manager
-  e) Cloud Controller Manager(CCM)
+- API Server
+- etcd
+- Scheduler
+- Controller Manager
+- Cloud Controller Manager(CCM)
 
 **Components of data plane**
-  a) Kubelet
-  b) Kubeproxy
-  c) Container Run Time
+- Kubelet
+- Kubeproxy
+- Container Run Time
 
 - In ***Docker*** simplest thing is - ***Container***
 - In ***Kubernetes*** simplest thing is - ***Pod***
