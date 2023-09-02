@@ -11,7 +11,7 @@ Kubernetes has a control plane and a **data plane**.
  - Controller Manager
  - Cloud Controller Manager(CCM)
 
-**Components of data plane**
+**Components of data plane/worker node**
 -----------------------------
  - Kubelet
  - Kubeproxy
@@ -44,6 +44,35 @@ Kubernetes has a control plane and a **data plane**.
 ----------------------
 - Actually responsible for running container.
 
+**COMPONENTS OF CONTROL PLANE/MASTER NODE**
+--------------------------------------------
+**API SERVER**
+---------------
+- Heart of Kubernetes.
+- Takes all requests from outside world.
+- Decides the pod will be deployed on this container.
+
+**SCHEDULER**
+-------------
+- Actually schedules pod/resources on Kubernetes.
+
+**etcd**
+---------
+- Key value store.
+- Entire kubernetes information stored here.
+- Acts as a backup.
+
+**CONTROLLER MANAGER**
+-----------------------
+- Supports auto scaling.
+- Replica set.
+- Increase number of pods as required.
+
+**CCM**
+--------
+- Creation of resources like load balancer on cloud platform like EKS, AKS.
+- Understand how resources can be created on different clouds.
+- To run kubernetes on cloud.
 
 
 
