@@ -11,7 +11,12 @@ So, one container impacts the other container. The applicaton running inside oth
 
 **Docker Drawbacks**
 ---------------------
-**Single host nature of Docker container** - One single host, docker is installed and then containers are created on top of it.
-**Auto healing** - Without user's manual intervention, container should start by itself. But it doesn't happen in Docker.
-**Auto scaling** - Increasing number of containers as per traffic by itself.(Load balancing at back end).
-**Minimalistic/Simple platform** - Does not support enterprise level support.(Standards - Enterprise application should have Load Balancer, Firewall, Autoscale, Autoheal, API gateways).
+- **Single host nature of Docker container** - One single host, docker is installed and then containers are created on top of it.
+- **Auto healing** - Without user's manual intervention, container should start by itself. But it doesn't happen in Docker.
+- **Auto scaling** - Increasing number of containers as per traffic by itself.(Load balancing at back end).
+- **Minimalistic/Simple platform** - Does not support enterprise level support.(Standards - Enterprise application should have 
+   Load Balancer, Firewall, Autoscale, Autoheal, API gateways).
+
+**Solution**
+-------------
+Kubernetes solves all the above problems.
