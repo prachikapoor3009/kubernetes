@@ -27,6 +27,7 @@ Kubernetes has a control plane and a **data plane**.
 - ***Container pod is like a wrapper over the container which has some advanced capabilities***.
 
 **KUBELET**
+------------
 - Responsible for running/maintaining the pod on data plane(worker node).
 - Responsible for running application.
 - Keeps a check if pod is running or not.
@@ -34,11 +35,13 @@ Kubernetes has a control plane and a **data plane**.
   restarting.
 
 **KUBE PROXY**
+---------------
 - In docker there is Docker0 or default networking called bridge network.
 - In Kubernetes, kube proxy provides networking. 
 - It provides IP address to pod/container and load balancing capabilities.
 
 **CONTAINER RUN TIME**
+----------------------
 - Actually responsible for running container.
 
 
